@@ -1,0 +1,2672 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "8ac25e81-12e7-4812-8ac3-77a8119532bb",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 82474,
+        "battery_capacity": 23892,
+        "created_at": "2023-09-22T06:42:29.928Z",
+        "updated_at": "2023-09-22T11:00:39.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7693a60-dcc2-4651-9357-3f68d99ec591",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 6697,
+        "battery_capacity": 69831,
+        "created_at": "2023-09-22T11:01:10.942Z",
+        "updated_at": "2023-09-22T15:02:10.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e97853b-7b6a-478d-bb5e-f8798703cf5c",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 40936,
+        "battery_capacity": 38511,
+        "created_at": "2023-09-22T06:52:44.748Z",
+        "updated_at": "2023-09-22T13:24:03.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa31755a-f182-45f1-88a7-f1a26fd2d449",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 60942,
+        "battery_capacity": 86652,
+        "created_at": "2023-09-22T09:44:58.333Z",
+        "updated_at": "2023-09-22T11:44:44.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70189884-7613-484f-bc52-4f38547e2eb3",
+        "model": "Pickup",
+        "make": "BMW",
+        "year": 2990,
+        "battery_capacity": 71178,
+        "created_at": "2023-09-22T02:35:47.520Z",
+        "updated_at": "2023-09-22T02:04:52.288Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "278661e2-52d7-4d00-83d2-37e63c7d0ef4",
+        "location": "Main Street",
+        "status": "Available",
+        "capacity": 73128,
+        "charging_speed": 5808,
+        "created_at": "2023-09-22T15:56:52.277Z",
+        "updated_at": "2023-09-22T02:24:53.430Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f823cf5c-1bae-4268-b784-b9ebfe9d1a49",
+        "location": "Park Avenue",
+        "status": "Occupied",
+        "capacity": 55989,
+        "charging_speed": 93271,
+        "created_at": "2023-09-22T06:50:23.229Z",
+        "updated_at": "2023-09-22T08:58:23.150Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a7cc769-a7b0-40d4-a614-4bb4e01e4e47",
+        "location": "Broadway",
+        "status": "Under Maintenance",
+        "capacity": 27222,
+        "charging_speed": 46357,
+        "created_at": "2023-09-22T08:25:57.074Z",
+        "updated_at": "2023-09-22T14:19:46.636Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49dfe483-b4b1-4bf7-8ec9-02e23c6c45a7",
+        "location": "Market Street",
+        "status": "Out of Service",
+        "capacity": 27953,
+        "charging_speed": 50099,
+        "created_at": "2023-09-22T17:33:37.312Z",
+        "updated_at": "2023-09-22T05:37:23.525Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4b5ebd63-5225-44cb-bee9-9a77e1d49c17",
+        "location": "Ocean Drive",
+        "status": "Charging",
+        "capacity": 89575,
+        "charging_speed": 62782,
+        "created_at": "2023-09-22T07:26:25.725Z",
+        "updated_at": "2023-09-22T09:38:57.513Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "0486d023-4522-47bc-a76f-a90209618000",
+        "start_time": "2023-09-22T10:38:29.613Z",
+        "end_time": "2023-09-21T23:53:22.209Z",
+        "energy_used": 31962,
+        "cost": 17970,
+        "created_at": "2023-09-22T00:14:10.859Z",
+        "updated_at": "2023-09-22T06:25:25.431Z",
+        "charge_station_id": "f823cf5c-1bae-4268-b784-b9ebfe9d1a49",
+        "vehicle_id": "70189884-7613-484f-bc52-4f38547e2eb3"
+      },
+      {
+        "id": "fbbfd6e8-5990-49f2-88fb-21700c92ffa4",
+        "start_time": "2023-09-22T11:09:01.756Z",
+        "end_time": "2023-09-22T07:08:35.320Z",
+        "energy_used": 79678,
+        "cost": 84094,
+        "created_at": "2023-09-22T19:48:35.412Z",
+        "updated_at": "2023-09-22T01:31:05.799Z",
+        "charge_station_id": "3a7cc769-a7b0-40d4-a614-4bb4e01e4e47",
+        "vehicle_id": "fa31755a-f182-45f1-88a7-f1a26fd2d449"
+      },
+      {
+        "id": "4105e9bf-2beb-413e-a375-470d7b650e0d",
+        "start_time": "2023-09-22T18:40:16.702Z",
+        "end_time": "2023-09-22T07:03:42.979Z",
+        "energy_used": 86439,
+        "cost": 62808,
+        "created_at": "2023-09-22T05:29:55.858Z",
+        "updated_at": "2023-09-22T09:36:50.544Z",
+        "charge_station_id": "4b5ebd63-5225-44cb-bee9-9a77e1d49c17",
+        "vehicle_id": "70189884-7613-484f-bc52-4f38547e2eb3"
+      },
+      {
+        "id": "b6e83fa6-e6aa-4a8f-a1aa-166f62218408",
+        "start_time": "2023-09-22T07:58:29.004Z",
+        "end_time": "2023-09-22T08:42:15.039Z",
+        "energy_used": 70801,
+        "cost": 30039,
+        "created_at": "2023-09-22T08:02:06.082Z",
+        "updated_at": "2023-09-22T14:51:42.214Z",
+        "charge_station_id": "f823cf5c-1bae-4268-b784-b9ebfe9d1a49",
+        "vehicle_id": "e7693a60-dcc2-4651-9357-3f68d99ec591"
+      },
+      {
+        "id": "b7516239-031d-494e-ac4a-4e06e8de9e4a",
+        "start_time": "2023-09-21T20:31:37.116Z",
+        "end_time": "2023-09-21T20:07:18.917Z",
+        "energy_used": 42728,
+        "cost": 9791,
+        "created_at": "2023-09-22T01:32:10.648Z",
+        "updated_at": "2023-09-22T14:50:03.392Z",
+        "charge_station_id": "278661e2-52d7-4d00-83d2-37e63c7d0ef4",
+        "vehicle_id": "8ac25e81-12e7-4812-8ac3-77a8119532bb"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "746cd768-91f2-4355-8751-c51224ae986f",
+        "start_time": "2023-09-22T06:34:49.054Z",
+        "end_time": "2023-09-22T16:13:50.178Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-09-22T07:13:10.982Z",
+        "updated_at": "2023-09-22T08:34:30.942Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65112724-dcbb-4420-9626-d9a6eaad7c72",
+        "start_time": "2023-09-22T01:45:56.514Z",
+        "end_time": "2023-09-22T13:12:14.450Z",
+        "status": "Cancelled",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-09-21T19:59:31.125Z",
+        "updated_at": "2023-09-22T06:58:51.701Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a903a421-c31d-4f84-9a7e-cc25f1731f33",
+        "start_time": "2023-09-22T00:29:43.056Z",
+        "end_time": "2023-09-22T10:59:55.193Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T18:30:05.593Z",
+        "updated_at": "2023-09-22T13:23:38.520Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc7c93d8-5462-49b1-a796-0204c03b3c29",
+        "start_time": "2023-09-22T05:47:58.660Z",
+        "end_time": "2023-09-22T12:31:04.826Z",
+        "status": "Rescheduled",
+        "notes": "Confirmation email sent",
+        "created_at": "2023-09-22T09:11:19.826Z",
+        "updated_at": "2023-09-22T10:28:27.131Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e205a85d-b0b5-4acf-850d-a6eaa53923e6",
+        "start_time": "2023-09-22T01:19:22.078Z",
+        "end_time": "2023-09-22T17:05:00.589Z",
+        "status": "Pending",
+        "notes": "Contact customer for details",
+        "created_at": "2023-09-22T19:26:51.495Z",
+        "updated_at": "2023-09-21T21:08:54.394Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "040c0204-d747-4987-a227-b3e2522b0b39",
+        "email": "Enola53@roq.tech",
+        "firstName": "Susie",
+        "lastName": "Gerhold-Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4001e9a-7c13-4fa6-b9f1-33988929792f",
+        "email": "Leo92@roq.tech",
+        "firstName": "Laury",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90216629",
+        "tenantId": null
+      },
+      {
+        "reference": "ed24f141-836b-414f-93df-b59c0306195b",
+        "email": "Carmine.Green@roq.tech",
+        "firstName": "Jamie",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73636263",
+        "tenantId": null
+      },
+      {
+        "reference": "fd45f824-5e02-43e7-b27b-b32bf41939c1",
+        "email": "Sabryna_Collins@roq.tech",
+        "firstName": "Jefferey",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35500906",
+        "tenantId": null
+      },
+      {
+        "reference": "e36e22ff-f86b-4fbb-b5de-c4ed6f17fabc",
+        "email": "Karl_Turner58@roq.tech",
+        "firstName": "Rebekah",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45320704",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d6bfb724-dc3a-4829-a1ca-b5dab2aa1a6c",
+        "model": "Camry",
+        "make": "Toyota",
+        "year": 85863,
+        "battery_capacity": 66174,
+        "created_at": "2023-09-22T18:34:16.906Z",
+        "updated_at": "2023-09-22T18:33:36.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "115ccc50-9df7-487a-a57d-342db21ecf6f",
+        "model": "Accord",
+        "make": "Honda",
+        "year": 87653,
+        "battery_capacity": 11356,
+        "created_at": "2023-09-22T10:29:28.530Z",
+        "updated_at": "2023-09-22T19:05:49.899Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff5c0ac-1e23-450d-9d8e-18d811301802",
+        "model": "Civic",
+        "make": "Ford",
+        "year": 23463,
+        "battery_capacity": 64896,
+        "created_at": "2023-09-21T23:03:26.812Z",
+        "updated_at": "2023-09-22T08:44:33.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59ddadb7-f889-4169-81a7-f0021eba2fc8",
+        "model": "Corolla",
+        "make": "Chevrolet",
+        "year": 33319,
+        "battery_capacity": 10448,
+        "created_at": "2023-09-22T14:30:49.836Z",
+        "updated_at": "2023-09-22T02:18:59.426Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11454901-4f60-443c-9a7f-db52ebca1600",
+        "model": "Fusion",
+        "make": "Nissan",
+        "year": 39444,
+        "battery_capacity": 84837,
+        "created_at": "2023-09-22T17:05:52.120Z",
+        "updated_at": "2023-09-22T02:44:25.177Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "44841d25-b50c-406d-a1c1-474c84eda3fa",
+        "location": "123 Main St",
+        "status": "Available",
+        "capacity": 91883,
+        "charging_speed": 63819,
+        "created_at": "2023-09-22T07:14:25.979Z",
+        "updated_at": "2023-09-22T15:33:36.735Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c8e38bcb-7362-436a-84ed-3c15055cee12",
+        "location": "456 Elm St",
+        "status": "Occupied",
+        "capacity": 91568,
+        "charging_speed": 45636,
+        "created_at": "2023-09-21T21:04:18.065Z",
+        "updated_at": "2023-09-21T23:35:08.980Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "051d212f-aee3-4761-8b93-6ae3068bc8dd",
+        "location": "789 Oak St",
+        "status": "Under Maintenance",
+        "capacity": 48911,
+        "charging_speed": 53651,
+        "created_at": "2023-09-22T02:29:01.539Z",
+        "updated_at": "2023-09-22T10:37:32.137Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "020a8682-0043-429e-b1af-64a07ba464b7",
+        "location": "321 Pine St",
+        "status": "Out of Service",
+        "capacity": 52744,
+        "charging_speed": 84459,
+        "created_at": "2023-09-22T12:32:43.914Z",
+        "updated_at": "2023-09-22T15:00:31.302Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b8c120d5-88d2-4bb9-981d-ef404e9b7cec",
+        "location": "654 Maple St",
+        "status": "Charging",
+        "capacity": 46353,
+        "charging_speed": 8781,
+        "created_at": "2023-09-22T07:03:21.281Z",
+        "updated_at": "2023-09-22T15:10:29.858Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "479e50c2-ed4f-4c01-ac97-25d2363d9e36",
+        "start_time": "2023-09-21T23:46:00.749Z",
+        "end_time": "2023-09-22T14:11:33.920Z",
+        "energy_used": 30022,
+        "cost": 38601,
+        "created_at": "2023-09-22T17:59:18.243Z",
+        "updated_at": "2023-09-22T12:38:06.903Z",
+        "charge_station_id": "44841d25-b50c-406d-a1c1-474c84eda3fa",
+        "vehicle_id": "0ff5c0ac-1e23-450d-9d8e-18d811301802"
+      },
+      {
+        "id": "bf4ce81e-239d-43c1-a438-2730e9d80fe4",
+        "start_time": "2023-09-22T18:39:19.690Z",
+        "end_time": "2023-09-21T22:37:20.173Z",
+        "energy_used": 59771,
+        "cost": 24876,
+        "created_at": "2023-09-22T07:26:08.081Z",
+        "updated_at": "2023-09-22T01:09:10.641Z",
+        "charge_station_id": "051d212f-aee3-4761-8b93-6ae3068bc8dd",
+        "vehicle_id": "11454901-4f60-443c-9a7f-db52ebca1600"
+      },
+      {
+        "id": "ecd99f9e-1376-4240-b1bf-92f9b911693a",
+        "start_time": "2023-09-22T04:13:44.630Z",
+        "end_time": "2023-09-22T12:25:44.671Z",
+        "energy_used": 98915,
+        "cost": 28729,
+        "created_at": "2023-09-22T19:15:14.386Z",
+        "updated_at": "2023-09-22T02:34:13.721Z",
+        "charge_station_id": "020a8682-0043-429e-b1af-64a07ba464b7",
+        "vehicle_id": "0ff5c0ac-1e23-450d-9d8e-18d811301802"
+      },
+      {
+        "id": "d04e8ab3-fe97-4ab1-af76-5186e3e19303",
+        "start_time": "2023-09-21T23:51:58.872Z",
+        "end_time": "2023-09-22T14:35:00.210Z",
+        "energy_used": 64031,
+        "cost": 84222,
+        "created_at": "2023-09-22T00:46:46.602Z",
+        "updated_at": "2023-09-22T02:53:48.523Z",
+        "charge_station_id": "44841d25-b50c-406d-a1c1-474c84eda3fa",
+        "vehicle_id": "0ff5c0ac-1e23-450d-9d8e-18d811301802"
+      },
+      {
+        "id": "432ac98f-03f7-4177-b49b-96e64e3fd0b5",
+        "start_time": "2023-09-22T05:15:17.432Z",
+        "end_time": "2023-09-22T02:35:12.327Z",
+        "energy_used": 95093,
+        "cost": 73430,
+        "created_at": "2023-09-22T11:54:00.231Z",
+        "updated_at": "2023-09-22T08:57:22.618Z",
+        "charge_station_id": "b8c120d5-88d2-4bb9-981d-ef404e9b7cec",
+        "vehicle_id": "11454901-4f60-443c-9a7f-db52ebca1600"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d35e9525-d854-489d-bc6e-7d5697006344",
+        "start_time": "2023-09-21T20:47:18.663Z",
+        "end_time": "2023-09-22T01:45:36.359Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-09-22T11:50:39.695Z",
+        "updated_at": "2023-09-22T10:29:24.833Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "229fd44a-33c8-4a7f-8690-2220e93f9792",
+        "start_time": "2023-09-22T10:07:14.346Z",
+        "end_time": "2023-09-22T18:06:31.371Z",
+        "status": "Cancelled",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-09-21T22:57:57.704Z",
+        "updated_at": "2023-09-21T22:41:36.612Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bc8454a-d093-4032-8ace-6ce7b9043aa3",
+        "start_time": "2023-09-21T20:57:10.650Z",
+        "end_time": "2023-09-22T01:26:37.959Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T15:35:28.048Z",
+        "updated_at": "2023-09-22T08:45:31.127Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "480f7d31-aaf2-4b7e-9727-3a377314e8b8",
+        "start_time": "2023-09-22T07:33:00.158Z",
+        "end_time": "2023-09-22T10:00:17.380Z",
+        "status": "Rescheduled",
+        "notes": "Follow up required",
+        "created_at": "2023-09-21T21:45:30.677Z",
+        "updated_at": "2023-09-22T04:32:04.394Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3d85d52-0fa0-4b7f-a0bb-c4352fe4b2c5",
+        "start_time": "2023-09-22T12:54:20.143Z",
+        "end_time": "2023-09-22T12:09:01.153Z",
+        "status": "In Progress",
+        "notes": "Additional testing may be needed",
+        "created_at": "2023-09-22T11:46:44.325Z",
+        "updated_at": "2023-09-22T11:43:23.501Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "82895b72-aea2-48b6-9a51-22d8ba59fe86",
+        "email": "Lenore83@roq.tech",
+        "firstName": "Felicity",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72771817",
+        "tenantId": null
+      },
+      {
+        "reference": "0ebe8e90-b7ae-422d-a732-7733126cb8a0",
+        "email": "Kacie_Schimmel@roq.tech",
+        "firstName": "Jaycee",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/468.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b51e8bee-e18c-471e-9846-8de76255488e",
+        "email": "Trudie.Blanda@roq.tech",
+        "firstName": "Emory",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/400.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43ce5a21-993f-4948-8b78-e099598cc89d",
+        "email": "Kelsi0@roq.tech",
+        "firstName": "Myrtie",
+        "lastName": "Lakin-Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14833425",
+        "tenantId": null
+      },
+      {
+        "reference": "bf069356-22f4-41b8-b387-9b7729c55528",
+        "email": "Trenton_Gerlach-Lesch6@roq.tech",
+        "firstName": "Camren",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95765926",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "9c6d9588-b239-462f-bf06-6e2c1fc0d854",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 17130,
+        "battery_capacity": 65480,
+        "created_at": "2023-09-22T07:08:38.200Z",
+        "updated_at": "2023-09-22T01:55:11.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51e9bfe8-e267-4341-a918-95c9c4de2c7c",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 64540,
+        "battery_capacity": 82998,
+        "created_at": "2023-09-22T06:09:02.754Z",
+        "updated_at": "2023-09-22T19:07:45.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12b5e64d-381c-4dfc-84f2-d123647af927",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 48913,
+        "battery_capacity": 33839,
+        "created_at": "2023-09-22T04:38:38.854Z",
+        "updated_at": "2023-09-22T10:45:26.322Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "932fc993-f8d8-41cf-b6df-95cbd36ee047",
+        "model": "Coupe",
+        "make": "Chevrolet",
+        "year": 58575,
+        "battery_capacity": 95332,
+        "created_at": "2023-09-22T05:39:54.164Z",
+        "updated_at": "2023-09-21T22:55:29.471Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dfb938b-addd-41a8-9de6-409677572ca5",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 46959,
+        "battery_capacity": 23167,
+        "created_at": "2023-09-22T14:14:12.658Z",
+        "updated_at": "2023-09-22T19:10:55.016Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "c3844236-a37c-48f4-9ffd-efaecef9c92b",
+        "location": "123 Main Street",
+        "status": "Available",
+        "capacity": 78119,
+        "charging_speed": 60283,
+        "created_at": "2023-09-22T14:42:30.163Z",
+        "updated_at": "2023-09-22T04:04:21.380Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d622bacf-6b97-4b40-bdfb-4ba6f1fc5610",
+        "location": "456 Elm Avenue",
+        "status": "Occupied",
+        "capacity": 86570,
+        "charging_speed": 13437,
+        "created_at": "2023-09-21T22:39:55.971Z",
+        "updated_at": "2023-09-22T12:54:24.829Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca040205-f09d-4463-98f9-87eadb6a30bc",
+        "location": "789 Oak Lane",
+        "status": "Under Maintenance",
+        "capacity": 13293,
+        "charging_speed": 68338,
+        "created_at": "2023-09-22T04:18:55.409Z",
+        "updated_at": "2023-09-22T00:24:25.083Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dda6b254-cba2-4981-ad0e-0a6ce901243c",
+        "location": "321 Pine Road",
+        "status": "Out of Service",
+        "capacity": 24097,
+        "charging_speed": 53259,
+        "created_at": "2023-09-22T02:10:41.699Z",
+        "updated_at": "2023-09-22T05:43:06.636Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12b959f9-82a8-43e5-a67a-409437b1ac38",
+        "location": "654 Maple Drive",
+        "status": "Charging",
+        "capacity": 21270,
+        "charging_speed": 73981,
+        "created_at": "2023-09-22T16:53:15.566Z",
+        "updated_at": "2023-09-22T04:40:50.197Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "09b58a06-4ec2-4ed6-a4fd-456261b290b8",
+        "start_time": "2023-09-22T11:24:30.023Z",
+        "end_time": "2023-09-22T00:07:49.701Z",
+        "energy_used": 26551,
+        "cost": 73692,
+        "created_at": "2023-09-22T19:45:50.865Z",
+        "updated_at": "2023-09-21T22:58:19.374Z",
+        "charge_station_id": "ca040205-f09d-4463-98f9-87eadb6a30bc",
+        "vehicle_id": "9c6d9588-b239-462f-bf06-6e2c1fc0d854"
+      },
+      {
+        "id": "16a7f8e4-6e12-43b1-81a4-0cb94a6de11d",
+        "start_time": "2023-09-22T15:37:45.209Z",
+        "end_time": "2023-09-22T16:25:15.491Z",
+        "energy_used": 96620,
+        "cost": 76934,
+        "created_at": "2023-09-22T05:33:39.539Z",
+        "updated_at": "2023-09-22T05:47:28.740Z",
+        "charge_station_id": "12b959f9-82a8-43e5-a67a-409437b1ac38",
+        "vehicle_id": "51e9bfe8-e267-4341-a918-95c9c4de2c7c"
+      },
+      {
+        "id": "53b8ee27-ed71-441e-b451-cad80471695c",
+        "start_time": "2023-09-22T10:13:03.929Z",
+        "end_time": "2023-09-22T11:58:46.520Z",
+        "energy_used": 41398,
+        "cost": 56947,
+        "created_at": "2023-09-22T17:45:56.841Z",
+        "updated_at": "2023-09-22T07:40:20.686Z",
+        "charge_station_id": "ca040205-f09d-4463-98f9-87eadb6a30bc",
+        "vehicle_id": "1dfb938b-addd-41a8-9de6-409677572ca5"
+      },
+      {
+        "id": "07fb71c3-5657-475d-b638-abbc8c2129cf",
+        "start_time": "2023-09-21T20:24:58.873Z",
+        "end_time": "2023-09-22T01:25:55.087Z",
+        "energy_used": 84461,
+        "cost": 65594,
+        "created_at": "2023-09-22T02:09:01.032Z",
+        "updated_at": "2023-09-22T15:39:20.971Z",
+        "charge_station_id": "d622bacf-6b97-4b40-bdfb-4ba6f1fc5610",
+        "vehicle_id": "1dfb938b-addd-41a8-9de6-409677572ca5"
+      },
+      {
+        "id": "4e834121-ed38-4f79-bfcc-31939f9ee877",
+        "start_time": "2023-09-22T08:21:41.508Z",
+        "end_time": "2023-09-22T13:37:56.995Z",
+        "energy_used": 10412,
+        "cost": 86400,
+        "created_at": "2023-09-22T14:09:46.973Z",
+        "updated_at": "2023-09-22T01:54:43.963Z",
+        "charge_station_id": "dda6b254-cba2-4981-ad0e-0a6ce901243c",
+        "vehicle_id": "1dfb938b-addd-41a8-9de6-409677572ca5"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b36b5aed-8bbd-4124-9691-0efd5c9db0d8",
+        "start_time": "2023-09-22T02:30:44.150Z",
+        "end_time": "2023-09-22T15:58:15.532Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-09-22T02:48:36.565Z",
+        "updated_at": "2023-09-21T20:42:15.411Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df0da387-0f3c-41f8-9eb0-5fecac2bff25",
+        "start_time": "2023-09-22T09:08:11.951Z",
+        "end_time": "2023-09-22T11:03:09.101Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-09-21T22:12:38.005Z",
+        "updated_at": "2023-09-22T01:44:51.976Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac2c9fa4-feb3-4462-a6b5-3e4ff617745e",
+        "start_time": "2023-09-22T15:20:50.662Z",
+        "end_time": "2023-09-22T14:31:21.964Z",
+        "status": "Cancelled",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T01:05:59.919Z",
+        "updated_at": "2023-09-22T19:44:40.654Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a6a1a77-416c-4330-a9f2-e879af7c2f3c",
+        "start_time": "2023-09-22T00:58:17.482Z",
+        "end_time": "2023-09-22T09:54:27.322Z",
+        "status": "Completed",
+        "notes": "Bring all relevant documents",
+        "created_at": "2023-09-22T01:21:31.647Z",
+        "updated_at": "2023-09-22T07:07:04.575Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07e00eb7-4dd8-4246-a92b-8a793b22fbe1",
+        "start_time": "2023-09-22T05:41:01.210Z",
+        "end_time": "2023-09-22T04:23:16.794Z",
+        "status": "Rescheduled",
+        "notes": "No pets allowed",
+        "created_at": "2023-09-22T14:34:44.029Z",
+        "updated_at": "2023-09-22T03:33:36.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43eb4571-1914-4d47-8ba1-96cb48303fac",
+        "email": "Calista_Green@roq.tech",
+        "firstName": "Bridget",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33090231",
+        "tenantId": null
+      },
+      {
+        "reference": "3c7bb7e9-8d1c-4bb9-a3e1-035d3f70c48a",
+        "email": "Kelton30@roq.tech",
+        "firstName": "Giovanny",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/41.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a068bceb-03ba-4e35-b647-96ea77818616",
+        "email": "Garrison.Ward@roq.tech",
+        "firstName": "Richmond",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44d66cb9-c95f-4f4a-b13a-0d75a477576c",
+        "email": "Jaime.OReilly45@roq.tech",
+        "firstName": "Francisca",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37133878-883f-4b55-bf86-6af46b2eca7e",
+        "email": "Martin_Fisher0@roq.tech",
+        "firstName": "Salma",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1019.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "13532d20-bc2f-452f-be17-977a5486af8a",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 20920,
+        "battery_capacity": 87011,
+        "created_at": "2023-09-22T09:16:01.599Z",
+        "updated_at": "2023-09-22T04:17:22.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fdf0968-a23e-4727-af4e-baee8f26f1c6",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 94135,
+        "battery_capacity": 86726,
+        "created_at": "2023-09-22T05:47:48.896Z",
+        "updated_at": "2023-09-21T22:04:00.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaf1ce59-15af-4319-be36-31c1f32fadf4",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 27638,
+        "battery_capacity": 86720,
+        "created_at": "2023-09-22T09:51:46.428Z",
+        "updated_at": "2023-09-22T18:52:43.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef00d91b-5a85-4b75-a11c-48c1206d915e",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 41597,
+        "battery_capacity": 17855,
+        "created_at": "2023-09-22T18:24:27.113Z",
+        "updated_at": "2023-09-22T14:44:37.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2a2fc53-c6b6-4c0f-8bb5-65ec67e2036b",
+        "model": "Truck",
+        "make": "BMW",
+        "year": 95244,
+        "battery_capacity": 88328,
+        "created_at": "2023-09-22T00:47:19.765Z",
+        "updated_at": "2023-09-22T02:06:05.722Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "de0379bf-df36-42ba-804d-b2ff41e7e593",
+        "location": "Parking Garage A",
+        "status": "Available",
+        "capacity": 87719,
+        "charging_speed": 63978,
+        "created_at": "2023-09-22T02:37:37.005Z",
+        "updated_at": "2023-09-22T03:27:15.631Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2681b35-5c5f-477a-9ec4-bad44f3916ba",
+        "location": "Shopping Mall B",
+        "status": "Occupied",
+        "capacity": 44855,
+        "charging_speed": 86897,
+        "created_at": "2023-09-22T02:15:18.219Z",
+        "updated_at": "2023-09-21T21:06:37.299Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d18baee-337b-427a-89fd-7f907dcb8b0b",
+        "location": "Office Building C",
+        "status": "Under Maintenance",
+        "capacity": 94045,
+        "charging_speed": 65830,
+        "created_at": "2023-09-22T17:56:41.612Z",
+        "updated_at": "2023-09-22T13:09:25.665Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fe5ba33b-1923-4725-999a-69482a1a31e1",
+        "location": "Residential Complex D",
+        "status": "Out of Service",
+        "capacity": 22527,
+        "charging_speed": 91524,
+        "created_at": "2023-09-22T04:23:59.534Z",
+        "updated_at": "2023-09-22T10:33:27.951Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49a7fe4a-5061-4ae6-ad7f-036c29f638c5",
+        "location": "Airport E",
+        "status": "Charging in Progress",
+        "capacity": 3891,
+        "charging_speed": 2654,
+        "created_at": "2023-09-22T01:15:23.055Z",
+        "updated_at": "2023-09-22T05:55:05.473Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "fe88b871-7fce-4d8b-9a4a-ec429bf87b51",
+        "start_time": "2023-09-22T07:29:25.368Z",
+        "end_time": "2023-09-22T12:14:16.268Z",
+        "energy_used": 69393,
+        "cost": 88471,
+        "created_at": "2023-09-22T11:05:06.198Z",
+        "updated_at": "2023-09-22T14:55:07.928Z",
+        "charge_station_id": "49a7fe4a-5061-4ae6-ad7f-036c29f638c5",
+        "vehicle_id": "b2a2fc53-c6b6-4c0f-8bb5-65ec67e2036b"
+      },
+      {
+        "id": "efb2cedc-cc59-4f02-952e-effd0ee5985d",
+        "start_time": "2023-09-22T17:19:27.900Z",
+        "end_time": "2023-09-22T14:13:27.720Z",
+        "energy_used": 5284,
+        "cost": 18093,
+        "created_at": "2023-09-22T04:46:33.487Z",
+        "updated_at": "2023-09-22T04:52:45.699Z",
+        "charge_station_id": "49a7fe4a-5061-4ae6-ad7f-036c29f638c5",
+        "vehicle_id": "8fdf0968-a23e-4727-af4e-baee8f26f1c6"
+      },
+      {
+        "id": "7ada0d43-14fb-452e-b60d-6f036fa5578d",
+        "start_time": "2023-09-22T17:37:07.430Z",
+        "end_time": "2023-09-21T20:19:35.855Z",
+        "energy_used": 394,
+        "cost": 70488,
+        "created_at": "2023-09-22T17:13:53.442Z",
+        "updated_at": "2023-09-22T01:23:13.647Z",
+        "charge_station_id": "fe5ba33b-1923-4725-999a-69482a1a31e1",
+        "vehicle_id": "13532d20-bc2f-452f-be17-977a5486af8a"
+      },
+      {
+        "id": "7cf93c50-24d4-405f-971f-5fdf77d7371b",
+        "start_time": "2023-09-22T17:52:18.970Z",
+        "end_time": "2023-09-22T01:39:54.044Z",
+        "energy_used": 63310,
+        "cost": 60810,
+        "created_at": "2023-09-22T11:42:50.186Z",
+        "updated_at": "2023-09-22T00:19:29.514Z",
+        "charge_station_id": "49a7fe4a-5061-4ae6-ad7f-036c29f638c5",
+        "vehicle_id": "8fdf0968-a23e-4727-af4e-baee8f26f1c6"
+      },
+      {
+        "id": "eb9d815d-c6f4-4c18-87bc-e99852c40a77",
+        "start_time": "2023-09-22T07:34:30.517Z",
+        "end_time": "2023-09-22T18:35:03.641Z",
+        "energy_used": 42343,
+        "cost": 10448,
+        "created_at": "2023-09-22T14:40:45.624Z",
+        "updated_at": "2023-09-22T15:19:59.874Z",
+        "charge_station_id": "de0379bf-df36-42ba-804d-b2ff41e7e593",
+        "vehicle_id": "eaf1ce59-15af-4319-be36-31c1f32fadf4"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "47a8755f-68fb-4464-b535-662d50165271",
+        "start_time": "2023-09-22T16:39:14.376Z",
+        "end_time": "2023-09-22T12:30:12.195Z",
+        "status": "Scheduled",
+        "notes": "Please bring all necessary documents",
+        "created_at": "2023-09-22T07:20:34.132Z",
+        "updated_at": "2023-09-22T19:08:08.348Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4e2c58-ad81-47c4-8bf2-53591d72d756",
+        "start_time": "2023-09-22T12:42:41.721Z",
+        "end_time": "2023-09-22T05:16:30.750Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-09-22T04:51:10.725Z",
+        "updated_at": "2023-09-22T14:38:32.807Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d3b6839-0155-4e5a-9719-df21a3fee9b0",
+        "start_time": "2023-09-22T15:49:16.741Z",
+        "end_time": "2023-09-21T20:53:59.690Z",
+        "status": "Cancelled",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T06:34:50.235Z",
+        "updated_at": "2023-09-22T16:27:37.876Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71b7debf-11e2-4e48-9a8c-52191552f606",
+        "start_time": "2023-09-22T19:20:43.979Z",
+        "end_time": "2023-09-22T00:45:26.545Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-09-22T18:58:14.738Z",
+        "updated_at": "2023-09-22T03:58:33.308Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9ae4141-3bef-449c-952b-b6742177b1d7",
+        "start_time": "2023-09-21T22:07:26.915Z",
+        "end_time": "2023-09-22T18:40:58.622Z",
+        "status": "Rescheduled",
+        "notes": "Bring a valid ID",
+        "created_at": "2023-09-22T19:52:06.562Z",
+        "updated_at": "2023-09-22T10:08:30.018Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84417d76-9e9a-43a5-8117-d31c02919091",
+        "email": "Lessie97@roq.tech",
+        "firstName": "Xander",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/194.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c58f571-5396-40c9-b11d-fe340aeae7db",
+        "email": "Felicity83@roq.tech",
+        "firstName": "Kacie",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1069.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09aacb10-797c-4fe8-9770-621330098047",
+        "email": "Carrie.Gerhold55@roq.tech",
+        "firstName": "Jeromy",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c8faa20-44c5-46fa-9bf5-a0906337a235",
+        "email": "Joanny88@roq.tech",
+        "firstName": "Mabelle",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e186bab-852a-483e-b3e3-76cc5fcf685f",
+        "email": "Madilyn_Greenfelder50@roq.tech",
+        "firstName": "Roberta",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54846861",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "01d0761e-fe43-4a12-992f-bb4b635eb6d1",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 75846,
+        "battery_capacity": 68831,
+        "created_at": "2023-09-22T12:25:27.053Z",
+        "updated_at": "2023-09-22T15:03:49.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aaaab95-cae5-4398-89a6-65951293cc38",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 66477,
+        "battery_capacity": 86115,
+        "created_at": "2023-09-21T20:37:09.874Z",
+        "updated_at": "2023-09-22T16:25:52.794Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5897d22f-01d3-49bd-a1a7-c2b35e12dc47",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 61860,
+        "battery_capacity": 54041,
+        "created_at": "2023-09-22T08:42:00.496Z",
+        "updated_at": "2023-09-22T13:33:24.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "789604c8-c581-45d8-a943-7d01c7fbab5f",
+        "model": "Coupe",
+        "make": "Chevrolet",
+        "year": 43523,
+        "battery_capacity": 18114,
+        "created_at": "2023-09-22T14:57:15.251Z",
+        "updated_at": "2023-09-22T03:24:19.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08f76385-689d-4425-afbc-29d28a1bd40c",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 13725,
+        "battery_capacity": 62368,
+        "created_at": "2023-09-22T06:52:27.400Z",
+        "updated_at": "2023-09-22T13:02:42.689Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "810ea47d-3a73-439b-ab70-70a0fef3d291",
+        "location": "Parking Lot A",
+        "status": "Available",
+        "capacity": 11669,
+        "charging_speed": 22179,
+        "created_at": "2023-09-22T12:50:04.184Z",
+        "updated_at": "2023-09-22T11:13:28.948Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37e043f1-77d1-4189-9cf2-5ffc1d1e6a7a",
+        "location": "Garage B",
+        "status": "Occupied",
+        "capacity": 4281,
+        "charging_speed": 59959,
+        "created_at": "2023-09-22T16:26:21.387Z",
+        "updated_at": "2023-09-22T11:16:23.959Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2a0de99d-575a-4476-9c2f-4d47f2d8c5dd",
+        "location": "Street C",
+        "status": "Out of Service",
+        "capacity": 44465,
+        "charging_speed": 28785,
+        "created_at": "2023-09-22T07:12:40.492Z",
+        "updated_at": "2023-09-21T23:22:51.550Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b3252339-c5df-42f3-b656-a095b9d0edf7",
+        "location": "Mall D",
+        "status": "Charging",
+        "capacity": 44442,
+        "charging_speed": 29972,
+        "created_at": "2023-09-21T21:05:33.622Z",
+        "updated_at": "2023-09-22T09:49:50.569Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1cd78052-7a49-427f-95bf-6e6cfb8f565f",
+        "location": "Park E",
+        "status": "Maintenance",
+        "capacity": 42244,
+        "charging_speed": 12391,
+        "created_at": "2023-09-22T13:12:15.731Z",
+        "updated_at": "2023-09-22T07:25:48.109Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "6e22ea0c-d589-4fc6-aa1a-fb527d75f44f",
+        "start_time": "2023-09-21T21:58:14.521Z",
+        "end_time": "2023-09-22T18:21:02.041Z",
+        "energy_used": 97886,
+        "cost": 97956,
+        "created_at": "2023-09-22T02:09:07.392Z",
+        "updated_at": "2023-09-22T17:45:33.239Z",
+        "charge_station_id": "37e043f1-77d1-4189-9cf2-5ffc1d1e6a7a",
+        "vehicle_id": "789604c8-c581-45d8-a943-7d01c7fbab5f"
+      },
+      {
+        "id": "a4d4cbcb-b91d-43cb-b369-9fd85dd57d04",
+        "start_time": "2023-09-22T03:43:11.734Z",
+        "end_time": "2023-09-22T19:01:21.698Z",
+        "energy_used": 50280,
+        "cost": 14646,
+        "created_at": "2023-09-22T17:06:15.235Z",
+        "updated_at": "2023-09-22T11:18:35.317Z",
+        "charge_station_id": "810ea47d-3a73-439b-ab70-70a0fef3d291",
+        "vehicle_id": "01d0761e-fe43-4a12-992f-bb4b635eb6d1"
+      },
+      {
+        "id": "533e6fae-f0bd-4bfa-8eb1-643df68cff03",
+        "start_time": "2023-09-22T19:48:50.546Z",
+        "end_time": "2023-09-22T17:00:41.728Z",
+        "energy_used": 93081,
+        "cost": 1455,
+        "created_at": "2023-09-22T06:26:46.481Z",
+        "updated_at": "2023-09-22T09:23:08.482Z",
+        "charge_station_id": "b3252339-c5df-42f3-b656-a095b9d0edf7",
+        "vehicle_id": "5897d22f-01d3-49bd-a1a7-c2b35e12dc47"
+      },
+      {
+        "id": "5b2179fc-94b9-44d4-9670-8df35ffa94f0",
+        "start_time": "2023-09-22T10:27:06.530Z",
+        "end_time": "2023-09-21T20:07:54.247Z",
+        "energy_used": 27907,
+        "cost": 44940,
+        "created_at": "2023-09-22T12:17:22.186Z",
+        "updated_at": "2023-09-22T12:18:40.698Z",
+        "charge_station_id": "810ea47d-3a73-439b-ab70-70a0fef3d291",
+        "vehicle_id": "789604c8-c581-45d8-a943-7d01c7fbab5f"
+      },
+      {
+        "id": "0d1d67ed-f20c-40da-bd8a-c54cd0a1a38f",
+        "start_time": "2023-09-22T02:35:05.940Z",
+        "end_time": "2023-09-22T18:17:48.933Z",
+        "energy_used": 79182,
+        "cost": 50457,
+        "created_at": "2023-09-21T23:55:10.113Z",
+        "updated_at": "2023-09-22T08:51:50.132Z",
+        "charge_station_id": "1cd78052-7a49-427f-95bf-6e6cfb8f565f",
+        "vehicle_id": "5897d22f-01d3-49bd-a1a7-c2b35e12dc47"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c40778d3-7697-4574-bb27-a665f3f0c8b8",
+        "start_time": "2023-09-22T16:00:02.454Z",
+        "end_time": "2023-09-22T16:13:41.882Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID for verification.",
+        "created_at": "2023-09-22T01:00:21.203Z",
+        "updated_at": "2023-09-22T02:43:56.952Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59e016d5-fd20-4437-8c12-5728c072282f",
+        "start_time": "2023-09-22T15:40:06.727Z",
+        "end_time": "2023-09-22T06:41:39.229Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes prior to your appointment.",
+        "created_at": "2023-09-21T20:39:31.338Z",
+        "updated_at": "2023-09-22T14:28:26.541Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb090aaa-7327-4d0e-ad62-fa864f8f09fb",
+        "start_time": "2023-09-22T13:06:58.740Z",
+        "end_time": "2023-09-22T15:11:01.658Z",
+        "status": "Cancelled",
+        "notes": "Payment due at the time of service.",
+        "created_at": "2023-09-22T15:41:31.068Z",
+        "updated_at": "2023-09-22T18:02:24.793Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5eea47c-7b85-4053-aae4-017a237570d6",
+        "start_time": "2023-09-22T08:17:22.582Z",
+        "end_time": "2023-09-22T09:17:08.855Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment required.",
+        "created_at": "2023-09-22T10:51:13.263Z",
+        "updated_at": "2023-09-22T04:28:18.130Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac6e53a1-b2c1-42a9-8bbc-a7ab8d0c24f1",
+        "start_time": "2023-09-22T13:28:49.422Z",
+        "end_time": "2023-09-22T19:20:56.795Z",
+        "status": "Rescheduled",
+        "notes": "Special instructions: No food or drinks allowed.",
+        "created_at": "2023-09-22T06:08:53.790Z",
+        "updated_at": "2023-09-22T19:25:34.640Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bffaa6c9-2fbf-4405-bfd9-2eb82073f3f2",
+        "email": "Leta_Feest@roq.tech",
+        "firstName": "Violette",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39994109",
+        "tenantId": null
+      },
+      {
+        "reference": "aa181b83-63d0-4080-b6d1-6654cc71ea25",
+        "email": "Chelsie_Stokes-Wiegand@roq.tech",
+        "firstName": "Eleanora",
+        "lastName": "Champlin-Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/770.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0f30951-463a-443f-ad95-ecccde2bfbbc",
+        "email": "Dell.Harris@roq.tech",
+        "firstName": "Herman",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71897689",
+        "tenantId": null
+      },
+      {
+        "reference": "e2137aab-1154-4889-8daa-3ecbefe1c806",
+        "email": "Sophia.Goyette@roq.tech",
+        "firstName": "Adelle",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/85.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "535b70a9-9655-4dd8-a98d-85fc8ba38eb5",
+        "email": "Dejon.Oberbrunner@roq.tech",
+        "firstName": "Felipe",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1079.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "2a89aa91-7fa5-4b8b-96fd-d6fa91d6ba6b",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 64672,
+        "battery_capacity": 52260,
+        "created_at": "2023-09-21T22:57:27.804Z",
+        "updated_at": "2023-09-22T08:21:12.620Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52540ec4-11ed-4c77-a478-b1689e559c64",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 76540,
+        "battery_capacity": 46674,
+        "created_at": "2023-09-22T10:17:52.362Z",
+        "updated_at": "2023-09-22T09:35:49.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7146d846-fd64-40fd-8e2f-85ae3eddfdbb",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 2841,
+        "battery_capacity": 97810,
+        "created_at": "2023-09-21T21:51:02.009Z",
+        "updated_at": "2023-09-22T15:32:27.887Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52f34ac2-5f72-482d-afd1-2c7a48196f5a",
+        "model": "Coupe",
+        "make": "Chevrolet",
+        "year": 68046,
+        "battery_capacity": 83465,
+        "created_at": "2023-09-21T20:28:56.169Z",
+        "updated_at": "2023-09-22T15:44:36.170Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dd2aecb-b020-4193-a32b-c4cbfc1a753b",
+        "model": "Convertible",
+        "make": "BMW",
+        "year": 71961,
+        "battery_capacity": 40319,
+        "created_at": "2023-09-21T22:17:17.967Z",
+        "updated_at": "2023-09-22T06:15:01.813Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "ca0416c5-51dd-4d64-b3bb-2f4610177c7a",
+        "location": "Shopping Mall",
+        "status": "Active",
+        "capacity": 5323,
+        "charging_speed": 91572,
+        "created_at": "2023-09-22T07:52:55.009Z",
+        "updated_at": "2023-09-22T03:21:08.561Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5021cb2-678a-4610-bdb3-8d8df95bd446",
+        "location": "Office Building",
+        "status": "Under Maintenance",
+        "capacity": 95204,
+        "charging_speed": 59036,
+        "created_at": "2023-09-21T20:44:32.405Z",
+        "updated_at": "2023-09-22T11:17:45.593Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5585689f-24a0-4056-ac8f-698de689ee9e",
+        "location": "Parking Garage",
+        "status": "Out of Service",
+        "capacity": 10311,
+        "charging_speed": 54279,
+        "created_at": "2023-09-22T04:11:33.730Z",
+        "updated_at": "2023-09-22T15:25:53.410Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2fcadc94-74d3-4e80-b0ac-94936207b233",
+        "location": "Hotel",
+        "status": "Available",
+        "capacity": 47519,
+        "charging_speed": 29145,
+        "created_at": "2023-09-22T00:58:20.717Z",
+        "updated_at": "2023-09-22T00:15:40.123Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8b9264bc-15bd-4ea0-acf2-ad799413c1d5",
+        "location": "Airport",
+        "status": "Charging",
+        "capacity": 56037,
+        "charging_speed": 83751,
+        "created_at": "2023-09-22T00:49:51.044Z",
+        "updated_at": "2023-09-22T16:34:19.404Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "b5ccc82d-1626-4e63-8187-8a428148dfd6",
+        "start_time": "2023-09-22T06:04:46.915Z",
+        "end_time": "2023-09-22T13:15:37.655Z",
+        "energy_used": 36267,
+        "cost": 44813,
+        "created_at": "2023-09-22T12:01:47.665Z",
+        "updated_at": "2023-09-22T14:14:46.651Z",
+        "charge_station_id": "d5021cb2-678a-4610-bdb3-8d8df95bd446",
+        "vehicle_id": "7146d846-fd64-40fd-8e2f-85ae3eddfdbb"
+      },
+      {
+        "id": "029a61fe-5923-4b83-b4b9-1d001206ad4f",
+        "start_time": "2023-09-21T21:38:23.290Z",
+        "end_time": "2023-09-22T12:39:34.876Z",
+        "energy_used": 66754,
+        "cost": 79271,
+        "created_at": "2023-09-22T08:50:47.330Z",
+        "updated_at": "2023-09-22T03:16:25.427Z",
+        "charge_station_id": "8b9264bc-15bd-4ea0-acf2-ad799413c1d5",
+        "vehicle_id": "52f34ac2-5f72-482d-afd1-2c7a48196f5a"
+      },
+      {
+        "id": "06c530bd-6090-4a1f-882b-c32abc8d1ce9",
+        "start_time": "2023-09-22T05:35:00.948Z",
+        "end_time": "2023-09-22T01:13:57.911Z",
+        "energy_used": 47169,
+        "cost": 90182,
+        "created_at": "2023-09-22T05:38:07.666Z",
+        "updated_at": "2023-09-22T03:05:46.805Z",
+        "charge_station_id": "5585689f-24a0-4056-ac8f-698de689ee9e",
+        "vehicle_id": "52540ec4-11ed-4c77-a478-b1689e559c64"
+      },
+      {
+        "id": "6a5bfd7b-3bce-42e0-808e-b8c822cafe30",
+        "start_time": "2023-09-21T22:20:52.810Z",
+        "end_time": "2023-09-21T22:56:13.071Z",
+        "energy_used": 13156,
+        "cost": 8850,
+        "created_at": "2023-09-22T08:17:09.177Z",
+        "updated_at": "2023-09-22T03:12:30.579Z",
+        "charge_station_id": "5585689f-24a0-4056-ac8f-698de689ee9e",
+        "vehicle_id": "52f34ac2-5f72-482d-afd1-2c7a48196f5a"
+      },
+      {
+        "id": "12150285-1f55-4b83-aa14-e5cc363d39cf",
+        "start_time": "2023-09-22T12:16:37.550Z",
+        "end_time": "2023-09-22T05:56:25.939Z",
+        "energy_used": 54114,
+        "cost": 26695,
+        "created_at": "2023-09-21T21:55:32.742Z",
+        "updated_at": "2023-09-22T06:53:09.572Z",
+        "charge_station_id": "2fcadc94-74d3-4e80-b0ac-94936207b233",
+        "vehicle_id": "2dd2aecb-b020-4193-a32b-c4cbfc1a753b"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "85a7b0bf-25ad-4806-8bde-6fd525d0e59e",
+        "start_time": "2023-09-22T11:44:06.355Z",
+        "end_time": "2023-09-22T11:37:28.284Z",
+        "status": "Scheduled",
+        "notes": "Bring ID proof",
+        "created_at": "2023-09-22T04:04:29.601Z",
+        "updated_at": "2023-09-21T23:28:53.760Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24250a18-f517-428c-a7bb-cb5a4889f18b",
+        "start_time": "2023-09-22T16:28:18.925Z",
+        "end_time": "2023-09-22T13:03:51.466Z",
+        "status": "Cancelled",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-09-22T05:48:00.152Z",
+        "updated_at": "2023-09-21T21:08:40.311Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e1440ff-13f3-4c55-b28a-2d8a070041df",
+        "start_time": "2023-09-22T09:21:30.654Z",
+        "end_time": "2023-09-22T17:44:12.770Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T02:29:17.440Z",
+        "updated_at": "2023-09-22T12:34:52.513Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcf8fea5-7111-4e81-b371-ad8fa1129bec",
+        "start_time": "2023-09-22T12:48:08.659Z",
+        "end_time": "2023-09-22T15:39:26.619Z",
+        "status": "Rescheduled",
+        "notes": "Follow-up required",
+        "created_at": "2023-09-21T22:28:10.319Z",
+        "updated_at": "2023-09-22T18:57:40.648Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1c00d9-3ce6-4969-807c-a0766bbb9bce",
+        "start_time": "2023-09-22T19:00:05.036Z",
+        "end_time": "2023-09-22T04:09:50.488Z",
+        "status": "Pending",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-09-22T15:02:39.474Z",
+        "updated_at": "2023-09-22T14:39:46.003Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6e0a1e59-8fe1-4b49-ad96-22fbf21ece8c",
+        "email": "Dominic_Mitchell@roq.tech",
+        "firstName": "Wilhelm",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74320395",
+        "tenantId": null
+      },
+      {
+        "reference": "58c543bc-49e3-4de9-9c39-635cf8d893dd",
+        "email": "Orin.Beahan63@roq.tech",
+        "firstName": "Doyle",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60605726",
+        "tenantId": null
+      },
+      {
+        "reference": "ee856e25-c18a-41c5-b17d-5f8dd7a12b77",
+        "email": "Kenya.Schiller@roq.tech",
+        "firstName": "Benedict",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53041795",
+        "tenantId": null
+      },
+      {
+        "reference": "13b0ead0-def2-495d-9a6f-f12357a19b6c",
+        "email": "Raphaelle91@roq.tech",
+        "firstName": "Breanna",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/151.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c13daa9-8117-4ef8-a713-255dbcda9b47",
+        "email": "Anabelle21@roq.tech",
+        "firstName": "Kathleen",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45299743",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "93f210fd-1bdd-4af5-865f-102536af2f4b",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 69508,
+        "battery_capacity": 20033,
+        "created_at": "2023-09-22T19:30:21.281Z",
+        "updated_at": "2023-09-22T17:28:43.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a38a4d8-0995-4b1e-a075-25502cb36ecd",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 61965,
+        "battery_capacity": 84839,
+        "created_at": "2023-09-22T03:21:39.725Z",
+        "updated_at": "2023-09-22T17:15:55.882Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfa5d83c-477d-4fdb-961b-698580ced074",
+        "model": "Truck",
+        "make": "Ford",
+        "year": 77651,
+        "battery_capacity": 65334,
+        "created_at": "2023-09-21T23:21:50.726Z",
+        "updated_at": "2023-09-22T14:44:03.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6eccb18-3037-4959-a944-ef2ff6a408db",
+        "model": "Coupe",
+        "make": "Chevrolet",
+        "year": 79378,
+        "battery_capacity": 11326,
+        "created_at": "2023-09-22T00:48:25.980Z",
+        "updated_at": "2023-09-22T03:28:48.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "016d2f49-b76f-412c-8d23-94f61c50b1b8",
+        "model": "Hatchback",
+        "make": "BMW",
+        "year": 54428,
+        "battery_capacity": 77759,
+        "created_at": "2023-09-22T19:20:42.845Z",
+        "updated_at": "2023-09-22T19:33:26.673Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "3e15cef7-cd5e-4959-9894-e8c04235aa93",
+        "location": "Downtown",
+        "status": "Available",
+        "capacity": 16975,
+        "charging_speed": 38397,
+        "created_at": "2023-09-22T03:04:39.060Z",
+        "updated_at": "2023-09-22T06:19:01.470Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "103907cd-e4d7-4916-8293-1f5aafcb3ccc",
+        "location": "Shopping Mall",
+        "status": "Occupied",
+        "capacity": 96936,
+        "charging_speed": 18146,
+        "created_at": "2023-09-22T08:51:13.250Z",
+        "updated_at": "2023-09-22T05:34:18.298Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d21ff5ca-8169-43b3-9a9f-8bf62942e97c",
+        "location": "Office Complex",
+        "status": "Under Maintenance",
+        "capacity": 51439,
+        "charging_speed": 66251,
+        "created_at": "2023-09-22T11:36:50.824Z",
+        "updated_at": "2023-09-22T15:45:05.334Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1ebe35c4-b029-4823-bb98-0d09c63b63d7",
+        "location": "Residential Area",
+        "status": "Charging in Progress",
+        "capacity": 94107,
+        "charging_speed": 61727,
+        "created_at": "2023-09-21T19:56:09.536Z",
+        "updated_at": "2023-09-22T15:00:42.131Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a30e3bfe-b6af-45d0-ab49-5739df945065",
+        "location": "Highway Rest Area",
+        "status": "Out of Service",
+        "capacity": 50448,
+        "charging_speed": 17631,
+        "created_at": "2023-09-22T14:01:39.442Z",
+        "updated_at": "2023-09-21T22:29:12.903Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "06e3742c-7b89-4718-afd1-feb223fec633",
+        "start_time": "2023-09-21T23:07:29.404Z",
+        "end_time": "2023-09-22T08:20:19.389Z",
+        "energy_used": 11329,
+        "cost": 86835,
+        "created_at": "2023-09-22T01:31:11.696Z",
+        "updated_at": "2023-09-22T13:44:19.901Z",
+        "charge_station_id": "d21ff5ca-8169-43b3-9a9f-8bf62942e97c",
+        "vehicle_id": "7a38a4d8-0995-4b1e-a075-25502cb36ecd"
+      },
+      {
+        "id": "186a772c-11bd-41c3-9b7a-5b94cd484987",
+        "start_time": "2023-09-22T18:25:40.620Z",
+        "end_time": "2023-09-22T05:14:33.455Z",
+        "energy_used": 14936,
+        "cost": 64963,
+        "created_at": "2023-09-22T03:57:53.629Z",
+        "updated_at": "2023-09-22T10:26:39.787Z",
+        "charge_station_id": "d21ff5ca-8169-43b3-9a9f-8bf62942e97c",
+        "vehicle_id": "dfa5d83c-477d-4fdb-961b-698580ced074"
+      },
+      {
+        "id": "58cbd943-b80d-4341-9a54-43bf2bcf64a3",
+        "start_time": "2023-09-22T08:45:39.417Z",
+        "end_time": "2023-09-21T21:01:08.544Z",
+        "energy_used": 67661,
+        "cost": 87576,
+        "created_at": "2023-09-22T14:03:02.941Z",
+        "updated_at": "2023-09-22T14:21:51.116Z",
+        "charge_station_id": "a30e3bfe-b6af-45d0-ab49-5739df945065",
+        "vehicle_id": "dfa5d83c-477d-4fdb-961b-698580ced074"
+      },
+      {
+        "id": "b420740c-a444-48bc-98c3-78be7ee03f35",
+        "start_time": "2023-09-22T13:13:35.029Z",
+        "end_time": "2023-09-22T06:42:43.640Z",
+        "energy_used": 6468,
+        "cost": 79561,
+        "created_at": "2023-09-22T06:17:03.352Z",
+        "updated_at": "2023-09-22T14:53:18.665Z",
+        "charge_station_id": "d21ff5ca-8169-43b3-9a9f-8bf62942e97c",
+        "vehicle_id": "a6eccb18-3037-4959-a944-ef2ff6a408db"
+      },
+      {
+        "id": "d4ddeb91-08f8-4b15-9f17-04b5ca91549c",
+        "start_time": "2023-09-22T06:09:03.208Z",
+        "end_time": "2023-09-22T04:42:38.751Z",
+        "energy_used": 83218,
+        "cost": 81564,
+        "created_at": "2023-09-22T12:27:58.909Z",
+        "updated_at": "2023-09-22T07:24:14.610Z",
+        "charge_station_id": "a30e3bfe-b6af-45d0-ab49-5739df945065",
+        "vehicle_id": "016d2f49-b76f-412c-8d23-94f61c50b1b8"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "21eef398-6199-484a-9dce-2bfb187dbe5f",
+        "start_time": "2023-09-22T13:56:49.093Z",
+        "end_time": "2023-09-21T23:56:59.090Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-09-22T10:59:46.584Z",
+        "updated_at": "2023-09-22T09:17:30.924Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "896f8a3d-d76f-4b05-82e2-234448215678",
+        "start_time": "2023-09-22T07:18:22.964Z",
+        "end_time": "2023-09-22T08:44:52.815Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-09-22T17:44:45.625Z",
+        "updated_at": "2023-09-22T17:10:18.126Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b60152ce-6144-4d69-9543-559d7a5434a9",
+        "start_time": "2023-09-22T04:40:28.719Z",
+        "end_time": "2023-09-22T17:13:37.278Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T03:01:14.400Z",
+        "updated_at": "2023-09-22T12:41:17.260Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5886947-c4e2-4950-9c97-1e27fdceb837",
+        "start_time": "2023-09-22T03:02:29.440Z",
+        "end_time": "2023-09-22T15:42:29.967Z",
+        "status": "Cancelled",
+        "notes": "Bring all necessary documents",
+        "created_at": "2023-09-22T17:10:45.017Z",
+        "updated_at": "2023-09-21T23:02:13.109Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3117682d-0a7a-4fab-87f2-6dd3787d653e",
+        "start_time": "2023-09-22T11:29:02.044Z",
+        "end_time": "2023-09-22T07:01:54.063Z",
+        "status": "Rescheduled",
+        "notes": "No pets allowed",
+        "created_at": "2023-09-22T08:55:58.595Z",
+        "updated_at": "2023-09-21T23:30:08.260Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7c1dcd56-3bd4-4dd3-9c95-b678d79cdf0c",
+        "email": "Josefina24@roq.tech",
+        "firstName": "Troy",
+        "lastName": "Wisoky-Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56934407",
+        "tenantId": null
+      },
+      {
+        "reference": "75b96231-4190-4d4b-83f6-dc4f53706afe",
+        "email": "Lindsey_Hettinger80@roq.tech",
+        "firstName": "Judah",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/319.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a95d39e-cdb4-40b6-b2f2-c811bb83dee2",
+        "email": "Thad_Grimes27@roq.tech",
+        "firstName": "Ashleigh",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe0dc3f5-045f-4a6b-b8b7-95c03bdae0f0",
+        "email": "Garret_Rogahn@roq.tech",
+        "firstName": "Kameron",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/209.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5323cf61-aaa8-4860-b583-1fffc9b15644",
+        "email": "Hudson31@roq.tech",
+        "firstName": "Leonard",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/369.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "09b59089-22c8-483e-af1c-c35d3e073804",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 24049,
+        "battery_capacity": 5279,
+        "created_at": "2023-09-21T20:58:02.753Z",
+        "updated_at": "2023-09-22T15:01:58.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c33063b6-5261-4b10-9b46-9308f67f9e84",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 85998,
+        "battery_capacity": 72288,
+        "created_at": "2023-09-22T13:55:00.771Z",
+        "updated_at": "2023-09-21T23:39:50.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55c841b6-6944-4af7-a5f5-1ed76433f00f",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 9014,
+        "battery_capacity": 84693,
+        "created_at": "2023-09-22T08:04:17.809Z",
+        "updated_at": "2023-09-22T02:01:48.048Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c068ae25-2c6b-410e-9bbb-5b89beb738b4",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 44205,
+        "battery_capacity": 15901,
+        "created_at": "2023-09-22T07:51:27.925Z",
+        "updated_at": "2023-09-22T18:31:42.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7510fa2c-973f-44c2-9f0e-70cf438ae7fd",
+        "model": "Truck",
+        "make": "BMW",
+        "year": 22368,
+        "battery_capacity": 61872,
+        "created_at": "2023-09-22T16:51:15.493Z",
+        "updated_at": "2023-09-21T23:22:08.158Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "cae94be4-223f-4334-93bb-1aa1f20e0dde",
+        "location": "123 Main Street",
+        "status": "Available",
+        "capacity": 63325,
+        "charging_speed": 39043,
+        "created_at": "2023-09-22T14:17:42.986Z",
+        "updated_at": "2023-09-22T01:03:59.156Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d419b06-a6e4-4d47-9488-376a43a792eb",
+        "location": "456 Elm Avenue",
+        "status": "Occupied",
+        "capacity": 19906,
+        "charging_speed": 35006,
+        "created_at": "2023-09-22T07:37:06.904Z",
+        "updated_at": "2023-09-22T02:06:28.459Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c80c8a7-d799-4ff1-ae9c-3bb66d46b2bc",
+        "location": "789 Oak Lane",
+        "status": "Out of Service",
+        "capacity": 84272,
+        "charging_speed": 70330,
+        "created_at": "2023-09-21T22:33:33.591Z",
+        "updated_at": "2023-09-21T20:57:37.435Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6dc51ec6-7af4-42a8-98e5-16009bf18e84",
+        "location": "321 Pine Road",
+        "status": "Charging",
+        "capacity": 47157,
+        "charging_speed": 29625,
+        "created_at": "2023-09-22T16:40:20.601Z",
+        "updated_at": "2023-09-22T03:36:37.348Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "34129ee5-f708-4363-83c2-4655f2e082e9",
+        "location": "654 Maple Drive",
+        "status": "Maintenance",
+        "capacity": 93760,
+        "charging_speed": 67272,
+        "created_at": "2023-09-22T04:02:48.049Z",
+        "updated_at": "2023-09-22T17:11:06.581Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "52cc29ee-4490-4dfa-a78c-95b5054c7528",
+        "start_time": "2023-09-22T06:59:08.614Z",
+        "end_time": "2023-09-22T10:07:42.837Z",
+        "energy_used": 26154,
+        "cost": 89393,
+        "created_at": "2023-09-21T22:37:45.727Z",
+        "updated_at": "2023-09-22T14:34:54.532Z",
+        "charge_station_id": "34129ee5-f708-4363-83c2-4655f2e082e9",
+        "vehicle_id": "c33063b6-5261-4b10-9b46-9308f67f9e84"
+      },
+      {
+        "id": "f5c18faf-bab4-4f6e-aecd-66d228498f76",
+        "start_time": "2023-09-22T11:56:05.955Z",
+        "end_time": "2023-09-22T12:07:41.904Z",
+        "energy_used": 24607,
+        "cost": 44122,
+        "created_at": "2023-09-22T11:18:49.173Z",
+        "updated_at": "2023-09-21T21:48:03.880Z",
+        "charge_station_id": "2c80c8a7-d799-4ff1-ae9c-3bb66d46b2bc",
+        "vehicle_id": "7510fa2c-973f-44c2-9f0e-70cf438ae7fd"
+      },
+      {
+        "id": "31b96a38-dcc4-407a-a7d4-d0e7ebeb55e8",
+        "start_time": "2023-09-22T17:54:16.518Z",
+        "end_time": "2023-09-22T13:40:35.138Z",
+        "energy_used": 51395,
+        "cost": 43565,
+        "created_at": "2023-09-22T06:37:56.371Z",
+        "updated_at": "2023-09-22T18:53:18.790Z",
+        "charge_station_id": "2c80c8a7-d799-4ff1-ae9c-3bb66d46b2bc",
+        "vehicle_id": "55c841b6-6944-4af7-a5f5-1ed76433f00f"
+      },
+      {
+        "id": "e5edb3d9-1a30-43cc-b413-12fd3af302fc",
+        "start_time": "2023-09-22T02:26:51.183Z",
+        "end_time": "2023-09-22T08:39:58.737Z",
+        "energy_used": 38928,
+        "cost": 61080,
+        "created_at": "2023-09-22T06:37:56.362Z",
+        "updated_at": "2023-09-22T18:28:51.253Z",
+        "charge_station_id": "2c80c8a7-d799-4ff1-ae9c-3bb66d46b2bc",
+        "vehicle_id": "c33063b6-5261-4b10-9b46-9308f67f9e84"
+      },
+      {
+        "id": "c78e2a3f-7fc1-4581-918c-5d7d1a26e947",
+        "start_time": "2023-09-22T12:10:55.140Z",
+        "end_time": "2023-09-22T18:55:19.247Z",
+        "energy_used": 83287,
+        "cost": 7765,
+        "created_at": "2023-09-21T20:28:49.421Z",
+        "updated_at": "2023-09-22T02:08:04.962Z",
+        "charge_station_id": "0d419b06-a6e4-4d47-9488-376a43a792eb",
+        "vehicle_id": "c33063b6-5261-4b10-9b46-9308f67f9e84"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2d6e0734-12f9-464b-9109-2927d980311a",
+        "start_time": "2023-09-21T23:20:33.984Z",
+        "end_time": "2023-09-21T23:51:28.570Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-09-22T04:43:25.392Z",
+        "updated_at": "2023-09-22T18:31:54.456Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb112026-7bbb-4caa-bcf2-af8f6a3a9611",
+        "start_time": "2023-09-22T17:31:26.008Z",
+        "end_time": "2023-09-22T18:09:19.727Z",
+        "status": "Cancelled",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-09-22T09:42:06.666Z",
+        "updated_at": "2023-09-22T18:25:09.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf413e47-e829-495e-8fb7-69b7a86ab291",
+        "start_time": "2023-09-21T21:15:06.465Z",
+        "end_time": "2023-09-22T09:41:19.454Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-22T10:42:00.418Z",
+        "updated_at": "2023-09-22T15:53:18.130Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1729761-9f81-4324-b562-ba6b9acf1b97",
+        "start_time": "2023-09-22T15:17:43.793Z",
+        "end_time": "2023-09-22T11:46:13.374Z",
+        "status": "Rescheduled",
+        "notes": "Follow-up required",
+        "created_at": "2023-09-22T00:05:13.825Z",
+        "updated_at": "2023-09-21T21:00:57.972Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a4ca0b0-6126-4cbe-a594-bb67220deadf",
+        "start_time": "2023-09-22T02:13:20.521Z",
+        "end_time": "2023-09-22T17:25:06.214Z",
+        "status": "Pending",
+        "notes": "Additional charges may apply",
+        "created_at": "2023-09-22T16:01:17.613Z",
+        "updated_at": "2023-09-21T20:02:31.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "139860ab-3efe-440d-9006-661e427b17f4",
+        "email": "Jadyn23@roq.tech",
+        "firstName": "Faustino",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3050a617-8318-4c06-ae4e-77703b7181df",
+        "email": "Kristian_Lebsack96@roq.tech",
+        "firstName": "Else",
+        "lastName": "Cruickshank-Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16379303",
+        "tenantId": null
+      },
+      {
+        "reference": "a8a216b5-e9d6-4639-9a3b-6d2b2f6a3d41",
+        "email": "Christian_Goldner@roq.tech",
+        "firstName": "Jackson",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5740224",
+        "tenantId": null
+      },
+      {
+        "reference": "88243f60-b457-4ea5-9752-7da5cd5524d9",
+        "email": "Nyah81@roq.tech",
+        "firstName": "Nelda",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98572047",
+        "tenantId": null
+      },
+      {
+        "reference": "8b3297d8-56e5-4505-849e-a9a25c532736",
+        "email": "Efrain10@roq.tech",
+        "firstName": "Paula",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1071.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "49805aff-03a5-42e0-8a17-2c44732d440d",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 2425,
+        "battery_capacity": 93579,
+        "created_at": "2023-09-22T13:29:51.362Z",
+        "updated_at": "2023-09-22T06:09:56.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00ee6aac-695f-4c4c-a277-94676a217f6c",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 22579,
+        "battery_capacity": 3332,
+        "created_at": "2023-09-22T14:05:00.954Z",
+        "updated_at": "2023-09-22T14:49:44.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e88e72a4-b9c2-42e5-b2fb-acd885a5c590",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 75752,
+        "battery_capacity": 55505,
+        "created_at": "2023-09-22T01:10:04.902Z",
+        "updated_at": "2023-09-22T00:45:22.669Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f693bedd-7214-4794-b727-5ac3e2280cf4",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 83988,
+        "battery_capacity": 17843,
+        "created_at": "2023-09-22T04:12:30.202Z",
+        "updated_at": "2023-09-22T13:21:24.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c37b922-3aee-4295-8d6e-184cdcea3a41",
+        "model": "Pickup",
+        "make": "BMW",
+        "year": 47626,
+        "battery_capacity": 42386,
+        "created_at": "2023-09-22T11:50:42.005Z",
+        "updated_at": "2023-09-22T00:45:26.598Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "565c4673-e0e9-4a1f-a0f6-6b3048dd8d79",
+        "location": "Parking Lot A",
+        "status": "Available",
+        "capacity": 80069,
+        "charging_speed": 90935,
+        "created_at": "2023-09-22T12:36:16.857Z",
+        "updated_at": "2023-09-21T23:04:03.605Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d157afaf-9127-4ca4-9a9e-e70562ce8159",
+        "location": "Garage B",
+        "status": "Occupied",
+        "capacity": 58139,
+        "charging_speed": 28338,
+        "created_at": "2023-09-22T01:04:34.702Z",
+        "updated_at": "2023-09-22T09:08:54.787Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee33afc7-65fc-4ece-b72a-90efb1436a5a",
+        "location": "Street C",
+        "status": "Under Maintenance",
+        "capacity": 94711,
+        "charging_speed": 98388,
+        "created_at": "2023-09-22T01:49:52.431Z",
+        "updated_at": "2023-09-21T22:38:58.704Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e909e0c-2240-4f87-9e95-cb4528447050",
+        "location": "Mall D",
+        "status": "Charging",
+        "capacity": 59832,
+        "charging_speed": 42131,
+        "created_at": "2023-09-21T20:13:13.105Z",
+        "updated_at": "2023-09-21T21:19:54.903Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2767a224-6a7d-44a2-864b-15f2441962b8",
+        "location": "Park E",
+        "status": "Out of Service",
+        "capacity": 57113,
+        "charging_speed": 42161,
+        "created_at": "2023-09-22T17:31:01.415Z",
+        "updated_at": "2023-09-22T00:56:43.107Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "07e01179-ad69-4b64-ac3f-a1f694ce48c1",
+        "start_time": "2023-09-21T23:43:11.647Z",
+        "end_time": "2023-09-22T14:56:31.969Z",
+        "energy_used": 38023,
+        "cost": 18287,
+        "created_at": "2023-09-21T23:07:54.843Z",
+        "updated_at": "2023-09-22T17:08:04.060Z",
+        "charge_station_id": "565c4673-e0e9-4a1f-a0f6-6b3048dd8d79",
+        "vehicle_id": "00ee6aac-695f-4c4c-a277-94676a217f6c"
+      },
+      {
+        "id": "1483d4e2-54b2-400e-8057-410976ad522e",
+        "start_time": "2023-09-22T19:10:42.311Z",
+        "end_time": "2023-09-22T10:50:03.893Z",
+        "energy_used": 97489,
+        "cost": 51995,
+        "created_at": "2023-09-22T17:53:38.277Z",
+        "updated_at": "2023-09-22T02:27:10.773Z",
+        "charge_station_id": "ee33afc7-65fc-4ece-b72a-90efb1436a5a",
+        "vehicle_id": "00ee6aac-695f-4c4c-a277-94676a217f6c"
+      },
+      {
+        "id": "f84b0192-9b49-4e46-8289-9769062d73e4",
+        "start_time": "2023-09-22T19:01:26.854Z",
+        "end_time": "2023-09-22T13:05:55.001Z",
+        "energy_used": 49465,
+        "cost": 7522,
+        "created_at": "2023-09-22T17:08:55.043Z",
+        "updated_at": "2023-09-21T20:01:11.870Z",
+        "charge_station_id": "ee33afc7-65fc-4ece-b72a-90efb1436a5a",
+        "vehicle_id": "49805aff-03a5-42e0-8a17-2c44732d440d"
+      },
+      {
+        "id": "8c6ca48a-c20b-4475-9ff5-b48851ac98f2",
+        "start_time": "2023-09-22T03:05:45.499Z",
+        "end_time": "2023-09-22T09:45:47.525Z",
+        "energy_used": 49454,
+        "cost": 7322,
+        "created_at": "2023-09-22T06:53:14.007Z",
+        "updated_at": "2023-09-22T09:56:01.219Z",
+        "charge_station_id": "2767a224-6a7d-44a2-864b-15f2441962b8",
+        "vehicle_id": "49805aff-03a5-42e0-8a17-2c44732d440d"
+      },
+      {
+        "id": "4b4d2166-e791-4a8a-8a59-cfaf4a73fb35",
+        "start_time": "2023-09-22T19:24:44.869Z",
+        "end_time": "2023-09-22T05:10:52.272Z",
+        "energy_used": 6273,
+        "cost": 65195,
+        "created_at": "2023-09-22T02:03:19.456Z",
+        "updated_at": "2023-09-22T08:00:02.435Z",
+        "charge_station_id": "4e909e0c-2240-4f87-9e95-cb4528447050",
+        "vehicle_id": "00ee6aac-695f-4c4c-a277-94676a217f6c"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "33fc0c26-ea42-409a-9234-1b72182c0233",
+        "start_time": "2023-09-21T21:12:29.624Z",
+        "end_time": "2023-09-22T05:52:13.455Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID.",
+        "created_at": "2023-09-22T08:24:37.682Z",
+        "updated_at": "2023-09-22T05:30:22.201Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbb3d994-a25c-46de-acb1-6f077156d093",
+        "start_time": "2023-09-22T19:07:18.092Z",
+        "end_time": "2023-09-22T13:56:44.303Z",
+        "status": "Cancelled",
+        "notes": "Arrive 10 minutes early.",
+        "created_at": "2023-09-22T10:37:13.715Z",
+        "updated_at": "2023-09-21T21:50:50.837Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "091c827a-947b-4e06-a3e2-1394ba3871aa",
+        "start_time": "2023-09-21T21:08:28.292Z",
+        "end_time": "2023-09-22T03:12:54.353Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment.",
+        "created_at": "2023-09-21T19:59:59.878Z",
+        "updated_at": "2023-09-22T06:49:34.558Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed646c33-aafe-45d8-81bc-d88a7c3983f7",
+        "start_time": "2023-09-22T00:19:11.739Z",
+        "end_time": "2023-09-22T19:24:13.996Z",
+        "status": "Rescheduled",
+        "notes": "Bring all necessary documents.",
+        "created_at": "2023-09-22T08:07:29.973Z",
+        "updated_at": "2023-09-22T02:44:05.930Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "031f86cf-0a24-4c79-ae2e-a3e0b0f2bd2b",
+        "start_time": "2023-09-22T02:29:53.685Z",
+        "end_time": "2023-09-21T23:23:44.523Z",
+        "status": "Pending",
+        "notes": "Confirmation email will be sent.",
+        "created_at": "2023-09-21T23:42:56.713Z",
+        "updated_at": "2023-09-22T13:54:27.707Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "455683b5-96ae-4c0b-b145-b913e31da591",
+        "email": "Avis_Botsford@roq.tech",
+        "firstName": "Fern",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65245686",
+        "tenantId": null
+      },
+      {
+        "reference": "28ccfa89-f533-4671-beea-101858626490",
+        "email": "Johnnie_Schmitt@roq.tech",
+        "firstName": "Mitchel",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/904.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f705c37-dd0f-49a4-9e0f-5f4bd7efa4ec",
+        "email": "Hortense70@roq.tech",
+        "firstName": "Jany",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/582.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3de1359c-63d9-4184-bafd-cb96167f2d1c",
+        "email": "Jerald81@roq.tech",
+        "firstName": "Tamara",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78259473",
+        "tenantId": null
+      },
+      {
+        "reference": "ad8b5602-3338-44ee-87c4-6d811b145c2c",
+        "email": "Johan57@roq.tech",
+        "firstName": "Jamel",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "a45f9fec-dc53-4ef4-b403-86e31bf4de5f",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 23480,
+        "battery_capacity": 92439,
+        "created_at": "2023-09-22T11:47:43.668Z",
+        "updated_at": "2023-09-22T11:28:04.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fbabcf7-b511-4d25-9e5b-bfdb5387a5e9",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 72131,
+        "battery_capacity": 34548,
+        "created_at": "2023-09-22T11:13:25.715Z",
+        "updated_at": "2023-09-22T13:28:04.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c1569d7-dbd8-48f5-9618-baf53aa89a97",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 50055,
+        "battery_capacity": 59719,
+        "created_at": "2023-09-22T08:08:26.782Z",
+        "updated_at": "2023-09-22T07:59:36.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "273bb7cb-a47d-4637-b73c-66321e511415",
+        "model": "Convertible",
+        "make": "Chevrolet",
+        "year": 34026,
+        "battery_capacity": 39839,
+        "created_at": "2023-09-22T17:29:10.684Z",
+        "updated_at": "2023-09-22T11:38:23.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc1ef526-1be1-4701-9e2f-2e311165fe7e",
+        "model": "Truck",
+        "make": "BMW",
+        "year": 58024,
+        "battery_capacity": 41570,
+        "created_at": "2023-09-22T09:13:34.850Z",
+        "updated_at": "2023-09-21T19:58:09.858Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "charge_station": [
+      {
+        "id": "ebd2e01e-e910-41d8-af47-4470b0165098",
+        "location": "Downtown",
+        "status": "Available",
+        "capacity": 57857,
+        "charging_speed": 12185,
+        "created_at": "2023-09-21T21:52:55.635Z",
+        "updated_at": "2023-09-22T06:41:34.873Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a27cb012-552f-4035-a22f-0e68c68bd90c",
+        "location": "Shopping Mall",
+        "status": "Occupied",
+        "capacity": 96871,
+        "charging_speed": 53558,
+        "created_at": "2023-09-22T02:04:11.712Z",
+        "updated_at": "2023-09-22T13:44:31.285Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c73bd9ca-2291-424c-8f9c-9ff109f1ffc3",
+        "location": "Airport",
+        "status": "Out of Service",
+        "capacity": 56773,
+        "charging_speed": 86176,
+        "created_at": "2023-09-22T15:11:55.345Z",
+        "updated_at": "2023-09-22T14:40:03.502Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f611675-8419-4d7f-9789-f81a7e2e7c5f",
+        "location": "Residential Area",
+        "status": "Charging",
+        "capacity": 12150,
+        "charging_speed": 80466,
+        "created_at": "2023-09-22T18:19:01.256Z",
+        "updated_at": "2023-09-21T21:08:17.948Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0661af55-9709-4bc5-bf29-d14470ea811e",
+        "location": "Office Complex",
+        "status": "Maintenance",
+        "capacity": 61734,
+        "charging_speed": 79456,
+        "created_at": "2023-09-22T17:44:36.152Z",
+        "updated_at": "2023-09-22T03:05:53.996Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "charging_history": [
+      {
+        "id": "44197a89-0852-4d35-bf68-2f565280fb66",
+        "start_time": "2023-09-21T23:25:22.000Z",
+        "end_time": "2023-09-22T11:02:10.644Z",
+        "energy_used": 20858,
+        "cost": 5542,
+        "created_at": "2023-09-22T13:58:36.738Z",
+        "updated_at": "2023-09-22T01:06:34.549Z",
+        "charge_station_id": "ebd2e01e-e910-41d8-af47-4470b0165098",
+        "vehicle_id": "a45f9fec-dc53-4ef4-b403-86e31bf4de5f"
+      },
+      {
+        "id": "2c81bd75-03e6-4b4b-9fb8-9d378114f2bc",
+        "start_time": "2023-09-22T12:06:11.083Z",
+        "end_time": "2023-09-22T02:18:10.172Z",
+        "energy_used": 95293,
+        "cost": 62780,
+        "created_at": "2023-09-22T13:50:23.289Z",
+        "updated_at": "2023-09-21T21:51:06.315Z",
+        "charge_station_id": "ebd2e01e-e910-41d8-af47-4470b0165098",
+        "vehicle_id": "cc1ef526-1be1-4701-9e2f-2e311165fe7e"
+      },
+      {
+        "id": "4ea442d1-075a-4f17-b676-a720db96d4ad",
+        "start_time": "2023-09-22T03:53:01.886Z",
+        "end_time": "2023-09-22T12:40:44.322Z",
+        "energy_used": 19220,
+        "cost": 64133,
+        "created_at": "2023-09-22T00:26:28.353Z",
+        "updated_at": "2023-09-22T07:48:45.972Z",
+        "charge_station_id": "0661af55-9709-4bc5-bf29-d14470ea811e",
+        "vehicle_id": "2c1569d7-dbd8-48f5-9618-baf53aa89a97"
+      },
+      {
+        "id": "cebff47f-6190-4d27-81be-ed6847718ea8",
+        "start_time": "2023-09-22T15:45:25.288Z",
+        "end_time": "2023-09-22T14:05:24.970Z",
+        "energy_used": 71706,
+        "cost": 68097,
+        "created_at": "2023-09-22T09:34:14.872Z",
+        "updated_at": "2023-09-22T02:04:08.196Z",
+        "charge_station_id": "a27cb012-552f-4035-a22f-0e68c68bd90c",
+        "vehicle_id": "a45f9fec-dc53-4ef4-b403-86e31bf4de5f"
+      },
+      {
+        "id": "0217f446-6f8d-4fdc-9762-3c76807bc287",
+        "start_time": "2023-09-22T18:51:02.145Z",
+        "end_time": "2023-09-22T04:49:16.506Z",
+        "energy_used": 87872,
+        "cost": 95730,
+        "created_at": "2023-09-22T05:41:01.216Z",
+        "updated_at": "2023-09-22T07:57:43.560Z",
+        "charge_station_id": "3f611675-8419-4d7f-9789-f81a7e2e7c5f",
+        "vehicle_id": "2c1569d7-dbd8-48f5-9618-baf53aa89a97"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8c98ecdb-0a48-4e4e-8d29-9ad443495417",
+        "start_time": "2023-09-22T18:05:10.756Z",
+        "end_time": "2023-09-22T06:31:34.268Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-09-22T19:43:23.574Z",
+        "updated_at": "2023-09-22T03:09:46.967Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ab9cc4f-a241-4955-bfc9-28d95a2084a4",
+        "start_time": "2023-09-22T06:17:08.337Z",
+        "end_time": "2023-09-22T15:24:46.283Z",
+        "status": "Cancelled",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-09-22T10:36:04.384Z",
+        "updated_at": "2023-09-22T02:15:30.125Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6316ae33-d40f-4ed7-bb51-5f30b2acc178",
+        "start_time": "2023-09-22T15:03:08.858Z",
+        "end_time": "2023-09-22T13:23:28.781Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-09-21T21:34:00.418Z",
+        "updated_at": "2023-09-22T07:12:43.521Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f7f5a16-90fc-4526-9088-dc56d750b401",
+        "start_time": "2023-09-22T15:39:31.656Z",
+        "end_time": "2023-09-22T05:53:35.306Z",
+        "status": "Rescheduled",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-09-22T04:04:25.877Z",
+        "updated_at": "2023-09-22T15:18:58.603Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c3b0e8c-1ac6-4cee-ba55-9203931480fd",
+        "start_time": "2023-09-22T07:59:39.221Z",
+        "end_time": "2023-09-22T18:52:02.401Z",
+        "status": "Pending",
+        "notes": "Confirmation email sent",
+        "created_at": "2023-09-22T14:39:14.945Z",
+        "updated_at": "2023-09-22T04:08:12.115Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ea67a6f-98d2-41b5-ac48-115342ef23b0",
+        "email": "Major60@roq.tech",
+        "firstName": "Ubaldo",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79714530",
+        "tenantId": null
+      },
+      {
+        "reference": "853a70ef-bd69-4ba9-b3b2-781ee798b135",
+        "email": "Jocelyn_Erdman21@roq.tech",
+        "firstName": "Jeremie",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "06795bb4-6c4b-40d0-927c-c9b5384e9d91",
+        "email": "Joelle_Gibson3@roq.tech",
+        "firstName": "Clay",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52814266",
+        "tenantId": null
+      },
+      {
+        "reference": "256706de-1c45-4d60-bdb2-95397410c367",
+        "email": "Alfreda50@roq.tech",
+        "firstName": "Tanner",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "655399fd-ac75-4970-87d2-a116e3fe2b99",
+        "email": "Noemi.Labadie@roq.tech",
+        "firstName": "Camille",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43163922",
+        "tenantId": null
+      }
+    ]
+  }
+]
